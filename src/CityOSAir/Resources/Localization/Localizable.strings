@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  CityOSAir
+
+  Created by Danijel Kecman on 11/28/19.
+  Copyright © 2019 CityOS. All rights reserved.
+*/
+
+// General
+"general_ok" = "OK";
+"error" = "Error!";
+"network_error" = "Network error. Please check your network connection and try again.";
+"unknown_error" = "Unknown error";
+
+// Login screen
+"login_screen_log_into_device_title" = "Log Into Device";
+"login_screen_view_sarajevo_air_button_title" = "View Sarajevo Air";
+
+// Welcome screen
+"welcome_scrreen_view_sarajevo_air_button_title" = "View Sarajevo Air";
+"welcome_sceren_log_into_device_button_title" = "Log Into Device";
+
+// Verify email screen
+"verify_email_screen_verify_your_email_title" = "Verify Your Email";
+"verify_email_screen_email_sent_message_text_view" = "We sent you an email at:\(%s)\nPlease click activation link in email to continue.";
+
+// Sign Up Screen
+"sign_up_screen_setup_account_title" = "Setup Account";
+
+// Device info screen
+"device_info_screen_updating_data_refresh_title" = "Updating data...";
+
+// Main Screen
+"main_screen_no_data_to_show_label" = "No data to show";
+"main_screen_no_data_yet_to_show_label" = "Gathering data. Please check again later.";
+"main_screen_no_pm_data_to_show_label" = "No PM data";
+
+// API Error Messages
+
+// ErrUnknown [could not determine the error]
+"api_unknown_error" = "Unknown Error";
+"api_registration_error_missing_first_name" = "Missing user's first name";
+"api_registration_error_missing_last_name" = "Missing user's last name";
+"api_registration_error_invalid_gender" = "Invalid gender value";
+"api_registration_error_missin_email" = "Missing email";
+"api_registration_error_missing_password" = "Missing password";
+"api_registration_error_could_not_read_request" = "Could not read request";
+"api_registration_error_can_not_register_user" = "Cannot register user. Cognito signup error";
+"api_signin_error_cognito_signing_error" = "Signin error, cannot singin user. Cognito signin error";
+"api_pofile_eror_missing_email" = "Missing email";
+"api_profile_error_missing_cognito_id" = "Missing cognito ID";
+"api_add_device_missing_model" = "Cannot add device. Missing model";
+"api_add_device_missing_name" = "Cannot add device. Missing name";
+"api_add_device_missing_location" = "Cannot add device. Missing location";
+"api_get_device_missing_token" = "Cannot get device details. Missing token";
+"api_cannot_get_map_details" = "Cannot get map details. Missing sensor";
+"api_cannot_update_profile_details_missing_bio" = "Cannot update profile details. Missing bio";
+"api_cannot_update_profile_details_missing_first_name" = "Cannot update profile details. Missing first name";
+"api_cannot_update_profile_details_missing_last_name" = "Cannot update profile details. Missing last name";
+"api_cannot_update_profile_details_missing_mantra" = "Cannot update profile details. Missing mantra";
+"api_cannot_update_profile_details_missing_city" = "Cannot update profile details. Missing City";
+"api_cannot_update_profile_details_missing_website" = "Cannot update profile details. Missing website";
+"api_cannot_update_profile_details_missing_birthday" = "Cannot update profile details. Missing birthday";
+"api_cannot_retrieve_device_not_mine" = "Cannot retrieve device. It does not belong to you";
+"api_could_not_refresh_identity_token" = "could not refresh identity tokens. Missing refresh token";
+"api_could_not_find_the_desired_device" = "could not find the desired device";
+"api_could_not_find_the_desired_schema" = "could not find the desired schema";
+"api_could_not_understand_the_request" = "could not understand the request";
+"api_could_not_understand_the_time" = "could not understand the time";
+"api_cannot_get_data_count_missing_chart_type" = "cannot get data count. Missing chart type";
+"api_missing_social_data" = "Missing social data";
+"api_missing_code" = "Missing code";
+"api_forgot_password_flow_error" = "Forgot password flow error";
+"api_cannot_add_city_missing_name" = "Cannot add city missing name";
+"api_cannot_add_city_missing_country" = "Cannot add city, missing country";
+"api_cannot_add_city_invalid_data" = "cannot add city, missing zones or invalid data";
+"api_cannot_add_city_missing_city_id" = "cannot complete action. Missing city id";
+"api_could_not_city_desired_city" = "could not find the desired city";
+"api_cannot_get_device_details_missing_identifier" = "cannot get device details. Missing identifier";
+"api_could_not_find_the_desired_zone" = "could not find the desired zone";
+

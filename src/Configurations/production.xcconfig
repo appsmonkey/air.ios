@@ -1,0 +1,15 @@
+//
+//  production.xcconfig
+//  CityOSAir
+//
+//  Created by Haris Kovacevic on 22/05/2019.
+//  Copyright © 2019 CityOS. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+COS_APP_NAME = CityOS Air
+COS_GOOGLE_API_KEY =
+COS_GOOGLE_SIGN_IN_CLIENT_ID =

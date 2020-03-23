@@ -1,0 +1,48 @@
+disabled_rules:
+  - trailing_whitespace # Xcode adds whitespaces for each new line
+  - todo # we like todos
+
+excluded:
+  - Pods
+  - FlowrSpotTests
+  - FlowrSpotUITests
+  - FileTemplates
+
+large_tuple:
+  - 3 # warning
+  - 5 # error
+
+line_length:
+  - 210 # warning
+  - 250 # error
+
+function_body_length:
+  - 70 # warning
+  - 100 # error
+
+function_parameter_count:
+  - 7 # warning
+  - 10 # error
+
+type_body_length:
+  - 500 # warning
+  - 600 # error
+
+file_length:
+  - 500 # warning
+  - 600 # error
+
+type_name:
+  max_length:
+    - 50 # error
+  excluded:
+    - T
+    - U
+    - S
+    - UI
+
+identifier_name:
+  min_length:
+    - 1 # error
+  max_length:
+    - 50 # error
